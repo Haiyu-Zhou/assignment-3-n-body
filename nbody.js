@@ -11,9 +11,17 @@ const config = {
   ]
 }
 
+console.log(config.bodies.length)
 // Your code here
 const step = (contextWrapper, deltaT) => {
-  contextWrapper.setScale(10);
+  contextWrapper.setScale(config.scale);
+const fx = [];
+const fy = [];
+for (let i = 0; i < contextWrapper.length; i ++){
+  
+}
+
+
 };
 
 // End your code
